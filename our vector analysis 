@@ -1,0 +1,14 @@
+Huma Tejaswi Akkem
+CS251 Fall 2020
+6 september 2020
+Instead of vector<T> I used our vector<T> as per project requirements. I started the assignment with an empty ourvector, then I added and push_back the values in ourvector. I used classes for gerrymandering. I took one main class where I declared state names and district numbers took classes as a sample organization pattern for my project. Moreover, I started with a function that extracts each line from the file and deletes the file's name. I took int getdemoVotes where it separates the votes by commas (,) and I used stoi for numbers, I added a function that extracts the demo and republic votes of each state and calculated them push_back the demo and rep votes elements in function. I created a function which takes each and every line from the file and loaded it to data. It is the main function of all elements. After reading the file, I created a function for eligible votes from each state ( leaving off the wasted votes) . I created a while loop to proceed with to find eligible votes and extracted the eligible voters.
+After all, I started with the key part of the project, which is searching, I wrote separate functions for "searching." And I wrote a "for loop "when i is less than equals to district names, and then i increments from the file. When district names. State equals states there in the file, and then it returns the function. For inputting a state, I created a "for loop" to find the state based on votes. After all function parts and all elements were stored, I calculated total democratic and total republic votes from the file. The equation I took to calculate the total votes is demovotes[i]+eligible voters. Overhalf is a total by 2 plus 1 of votes. I calculated wasted votes with the help of overhalf. And then I pushed the wasted votes. Then I plotted the votes by multiplying 100 of dem votes + rep votes. I called all our vectors and functions in int main, and also I calculated the efficiency gap in int main only with the help of wasted votes, total dem votes, and rep votes. In the end, I returned the program with 0.
+
+Where i used Ourvector, 
+Started with empty ourvector  
+ourvector <int> for storing  the district Numbers 
+ourvector<gerrynamdering> for reading the districts names
+ourvector<int>eligibility for checking the eligibility of votes from states
+ourvector<int>wasted votes holder, stored calculated votes 
+ourvector <int>demovotes; stored democractic votes
+ourvector<int>repvotes; stored republic votes.
